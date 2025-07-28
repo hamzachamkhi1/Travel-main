@@ -1,0 +1,15 @@
+<?php
+
+// Database configuration example
+// Copy this file to database.php and update with your credentials
+
+$con = mysqli_connect("localhost","your_username","your_password","TP_web");
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+else{
+    // Connection successful
+    // echo "Connected successfully";
+}
+
+?> 

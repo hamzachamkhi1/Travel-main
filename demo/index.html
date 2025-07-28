@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking - Demo</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <style>
+        .demo-notice {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100000;
+        }
+        .demo-notice a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        .demo-notice a:hover {
+            text-decoration: underline;
+        }
+        .feature-demo {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .demo-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .demo-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+        .demo-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-notice">
+        🚀 This is a static demo version. For full functionality with database and booking features, 
+        <a href="../deploy.md">deploy the PHP version</a> to a web server.
+    </div>
+
+    <div id="a4" style="position : fixed ; height : 100vh;width:100vw; z-index:99999;background-color: white;">
+        <div id='i'class="loading">
+            <img id="i1" class="img"src="../img/lod1.png" alt="">
+            <img id="i2" class="img" src="../img/lod2.png" alt="">
+            <img id="i3" class="img" src="../img/lod3.png" alt="">
+        </div>
+    </div>
+
+    <section>
+        <!-- navbar -->
+        <div class="navbar">
+            <a href="./index.html" class="click_logo"><img class="logo" src="../img/logo.png" alt=""></a>
+            <a href="https://www.google.com/maps/d/u/0/embed?mid=150jI-U0v6-YUC3iDlg-f-ynR3_UGZMD7" class="textLink">Near me</a>
+            <a href="../aboutus/aboutus.php" class="textLink">About us</a>
+        </div>
+
+        <!-- grid  -->
+        <div class="row">
+            <!-- left side code -->
+            <div class="main">
+                <div class="list">
+                    <a class="list-link" href="#hotels-demo">Hotels</a>
+                    <a class="list-link" href="#flights-demo">Flights</a>
+                    <a class="list-blind" href="#" style="color:#fbfbfb">.</a>
+                    <a class="list-blind" href="#offers-demo">Our Offers</a>
+                </div>
+                
+                <div class="feature-demo">
+                    <h2>🌟 Welcome to Travel Booking Demo</h2>
+                    <p>This is a static demonstration of the travel booking website. Explore the features below:</p>
+                    
+                    <div class="demo-buttons">
+                        <a href="#hotels-demo" class="demo-btn">🏨 Hotel Search</a>
+                        <a href="#flights-demo" class="demo-btn">✈️ Flight Search</a>
+                        <a href="#admin-demo" class="demo-btn">⚙️ Admin Panel</a>
+                        <a href="../deploy.md" class="demo-btn">🚀 Deploy Guide</a>
+                    </div>
+                </div>
+
+                <div style="width:100%;overflow: hidden; position: relative;">
+                    <div class="uper_img" id="uper_img">
+                        <p class="head">Tunisia, Douze</p>
+                        <p class="desc">from 70$</p>
+                    </div>
+                    <div class="slider">
+                        <figure>
+                            <a href="#"><img id="a6" src="../img/hawaii.jpg" alt="Please refresh the page"></a>
+                            <a href="#"><img src="../img/oasis.jpg" alt="Please refresh the page" ></a>
+                            <a href="#"><img src="../img/india.jpg" alt="Please refresh the page"></a>
+                            <a href="#"><img src="../img/java.jpg" alt="Please refresh the page"></a>
+                            <a href="#"><img src="../img/hawaii.jpg" alt="Please refresh the page"></a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- right side code -->
+            <div class="side">
+                <div class="side_box">
+                    <a href="#destinations-demo">
+                        <div class="sub_side_box">
+                            <h2>Destinations</h2>
+                            <p>explore top travel deals</p>
+                        </div>
+                        <img src="../img/arrow.png" alt="" style="float: right;height: 30px; margin:58px 20px;">
+                    </a>
+                </div>
+                
+                <div class="uper_img">
+                    <p class="head">Your Partner</p>
+                    <p class="desc">for a better trip</p>
+                </div>
+                <div class="slider">
+                    <figure>
+                        <img id="a5" src="../img/travelingMan.webp" alt="Please refresh the page">
+                        <img src="../img/wing.jpg" alt="Please refresh the page" >
+                        <img src="../img/flyingPlane.jpg" alt="Please refresh the page">
+                        <img src="../img/runway.jpg" alt="Please refresh the page" >
+                        <img src="../img/travelingMan.webp" alt="Please refresh the page">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <!-- Demo Sections -->
+        <div id="hotels-demo" class="feature-demo">
+            <h3>🏨 Hotel Booking Demo</h3>
+            <p>In the full version, users can:</p>
+            <ul>
+                <li>Search hotels by location and dates</li>
+                <li>View hotel details, amenities, and pricing</li>
+                <li>Book rooms with guest information</li>
+                <li>Receive email confirmations</li>
+            </ul>
+            <div class="demo-buttons">
+                <a href="../search/hotel.php" class="demo-btn">View Hotel Search</a>
+            </div>
+        </div>
+
+        <div id="flights-demo" class="feature-demo">
+            <h3>✈️ Flight Booking Demo</h3>
+            <p>In the full version, users can:</p>
+            <ul>
+                <li>Search flights by destination, date, and preferences</li>
+                <li>View flight details and pricing</li>
+                <li>Make reservations with passenger information</li>
+                <li>Receive booking confirmations</li>
+            </ul>
+            <div class="demo-buttons">
+                <a href="../search/flight.php" class="demo-btn">View Flight Search</a>
+            </div>
+        </div>
+
+        <div id="admin-demo" class="feature-demo">
+            <h3>⚙️ Admin Panel Demo</h3>
+            <p>In the full version, administrators can:</p>
+            <ul>
+                <li>Manage flight reservations</li>
+                <li>Handle hotel bookings</li>
+                <li>View and export booking data</li>
+                <li>Manage users and system settings</li>
+            </ul>
+            <div class="demo-buttons">
+                <a href="../admin/admin.php" class="demo-btn">View Admin Panel</a>
+            </div>
+        </div>
+
+        <div id="destinations-demo" class="feature-demo">
+            <h3>🌍 Popular Destinations</h3>
+            <p>Explore amazing destinations around the world:</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0;">
+                <div style="text-align: center; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                    <img src="../img/hawaii.jpg" alt="Hawaii" style="width: 100%; height: 120px; object-fit: cover; border-radius: 8px;">
+                    <h4>Hawaii</h4>
+                    <p>From $799</p>
+                </div>
+                <div style="text-align: center; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                    <img src="../img/india.jpg" alt="India" style="width: 100%; height: 120px; object-fit: cover; border-radius: 8px;">
+                    <h4>India</h4>
+                    <p>From $599</p>
+                </div>
+                <div style="text-align: center; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                    <img src="../img/java.jpg" alt="Java" style="width: 100%; height: 120px; object-fit: cover; border-radius: 8px;">
+                    <h4>Java</h4>
+                    <p>From $699</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="offers-demo" class="feature-demo">
+            <h3>🎉 Special Offers</h3>
+            <p>Limited time deals and promotions:</p>
+            <div style="background: linear-gradient(45deg, #ff6b6b, #ee5a24); padding: 20px; border-radius: 10px; margin: 20px 0;">
+                <h4 style="color: white; margin: 0;">Summer Sale - Up to 50% Off!</h4>
+                <p style="color: white; margin: 10px 0;">Book your summer vacation now and save big on flights and hotels.</p>
+                <a href="#" class="demo-btn" style="background: white; color: #ff6b6b;">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/loading.js" charset="utf-8"></script>
+    <script src="../js/index.js"></script>
+    <style>
+        .slider{
+            overflow:hidden;
+        }
+        .slider figure{
+            position: relative;
+            width:500%;
+            left:0;
+            margin:0;
+            box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+            z-index:5;
+            animation: 20s slider ease-in-out infinite;
+        }
+        .slider figure img{
+            width: 20%;
+            float: left;
+        }
+        @keyframes slider {
+            0% { left: 0%; }
+            20% { left: 0%; }
+            25% { left: -100%; }
+            45% { left: -100%; }
+            50% { left: -200%; }
+            70% { left: -200%; }
+            75% { left: -300%; }
+            95% { left: -300%; }
+            100% { left: -400%; }
+        }
+    </style>
+</body>
+</html> 
