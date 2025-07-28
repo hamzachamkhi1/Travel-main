@@ -32,6 +32,7 @@ jobs:
         cp -r includes demo/
         cp -r database demo/
         cp -r product-sans* demo/ 2>/dev/null || true
+        cp index.html demo/ 2>/dev/null || true
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
