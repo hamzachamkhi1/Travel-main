@@ -13,7 +13,7 @@ A comprehensive travel booking platform built with PHP, HTML, CSS, and JavaScrip
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-username.github.io/travel-main/)
+[View Live Demo](https://hamzachamkhi1.github.io/Travel-main/)
 
 ## 📋 Prerequisites
 
@@ -26,8 +26,8 @@ A comprehensive travel booking platform built with PHP, HTML, CSS, and JavaScrip
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/travel-main.git
-   cd travel-main
+   git clone https://github.com/hamzachamkhi1/Travel-main.git
+   cd Travel-main
    ```
 
 2. **Set up the database**
@@ -52,11 +52,12 @@ A comprehensive travel booking platform built with PHP, HTML, CSS, and JavaScrip
 ## 📁 Project Structure
 
 ```
-travel-main/
+Travel-main/
 ├── aboutus/          # About us page
 ├── admin/           # Admin panel and management
 ├── css/             # Stylesheets
 ├── database/        # Database SQL files
+├── demo/            # Static demo version for GitHub Pages
 ├── email/           # Email templates and functionality
 ├── img/             # Images and assets
 ├── includes/        # PHP includes and actions
@@ -108,7 +109,7 @@ Configure SMTP settings in email files for booking confirmations:
 ### Option 2: Local Development
 - Use XAMPP, WAMP, or similar local server
 - Configure local database
-- Access via `localhost/travel-main`
+- Access via `localhost/Travel-main`
 
 ### Option 3: Cloud Deployment
 - Deploy to services like Heroku, DigitalOcean, or AWS
@@ -149,7 +150,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/your-username)
+- **Hamza Chamkhi** - *Initial work* - [hamzachamkhi1](https://github.com/hamzachamkhi1)
 
 ## 🙏 Acknowledgments
 
