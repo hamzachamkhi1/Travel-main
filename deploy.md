@@ -342,3 +342,146 @@ https://hamzachamkhi1.github.io/Travel-main/
 ```
 
 Let me know when you've enabled GitHub Pages and I'll help you with any issues! 🎯 
+
+## 🌐 **How to Enable GitHub Pages:**
+
+### **Step 1: Go to Your Repository**
+1. **Open your browser**
+2. **Go to**: https://github.com/hamzachamkhi1/Travel-main
+
+### **Step 2: Access Settings**
+1. **Click on the "Settings" tab** (it's in the top navigation bar, next to "Code", "Issues", etc.)
+2. You'll see a menu on the left side
+
+### **Step 3: Find Pages Section**
+1. **Scroll down** in the left sidebar menu
+2. **Look for "Pages"** (it's usually near the bottom of the left menu)
+3. **Click on "Pages"**
+
+### **Step 4: Configure GitHub Pages**
+1. **Under "Source"**, you'll see a dropdown menu
+2. **Click the dropdown** and select **"Deploy from a branch"**
+3. **Under "Branch"**, select **"gh-pages"** from the dropdown
+4. **Leave the folder as "/ (root)"**
+5. **Click "Save"**
+
+### **Step 5: Wait for Deployment**
+- You'll see a message saying "Your site is being built"
+- This usually takes 2-5 minutes
+- You can check the progress in the "Actions" tab
+
+## 🔍 **Alternative Method (if you can't find Pages):**
+
+### **Method 1: Direct URL**
+1. **Go directly to**: https://github.com/hamzachamkhi1/Travel-main/settings/pages
+2. This will take you straight to the Pages settings
+
+### **Method 2: Through Repository Menu**
+1. Go to your repository
+2. Click the **"Settings"** tab
+3. In the left sidebar, look for **"Pages"** under the "Code and automation" section
+
+## 📋 **What You Should See:**
+
+After enabling GitHub Pages, you should see:
+- A green checkmark ✅
+- A message saying "Your site is published at https://hamzachamkhi1.github.io/Travel-main/"
+- The status should show "Your GitHub Pages site is currently being built from the gh-pages branch"
+
+## 🎯 **If You Don't See the gh-pages Branch:**
+
+If the gh-pages branch doesn't appear in the dropdown:
+1. **Wait a few minutes** - GitHub Actions needs to create it first
+2. **Check the "Actions" tab** to see if the deployment is running
+3. **Refresh the page** after a few minutes
+
+## 🎯 **Check Deployment Status:**
+
+1. **Go to the "Actions" tab** in your repository
+2. **Look for the "Deploy to GitHub Pages" workflow**
+3. **Click on it** to see the progress
+4. **Wait for it to complete** (green checkmark)
+
+## 🎯 **Your Live Link Will Be:**
+```
+<code_block_to_apply_changes_from>
+```
+
+**Try these steps now and let me know if you encounter any issues!** 
+
+If you're having trouble finding any of these options, I can help you troubleshoot further. 🚀 
+
+Perfect! Now let me guide you to see your website:
+
+## 🚀 **HOW TO SEE YOUR WEBSITE NOW:**
+
+### **Step 1: Check if GitHub Pages is Enabled**
+1. **Go to**: https://github.com/hamzachamkhi1/Travel-main/settings/pages
+2. **Look for**: "Your site is published at https://hamzachamkhi1.github.io/Travel-main/"
+
+### **Step 2: Visit Your Live Website**
+**Click this link or copy it to your browser:**
+```
+https://hamzachamkhi1.github.io/Travel-main/
+```
+
+### **Step 3: If the Website Doesn't Load Yet**
+
+**Option A: Check GitHub Actions**
+1. **Go to**: https://github.com/hamzachamkhi1/Travel-main/actions
+2. **Look for**: "Deploy to GitHub Pages" workflow
+3. **Wait for**: Green checkmark ✅ (means deployment is complete)
+
+**Option B: Enable GitHub Pages (if not done yet)**
+1. **Go to**: https://github.com/hamzachamkhi1/Travel-main/settings/pages
+2. **Under "Source"**: Select "Deploy from a branch"
+3. **Under "Branch"**: Select "gh-pages"
+4. **Click "Save"**
+
+### **Step 4: Alternative Ways to Access**
+
+**Direct Demo Link:**
+```
+https://hamzachamkhi1.github.io/Travel-main/demo/
+```
+
+**Repository Home:**
+```
+https://github.com/hamzachamkhi1/Travel-main
+```
+
+## 🎯 **WHAT YOU SHOULD SEE:**
+
+✅ **Beautiful travel booking website**  
+✅ **Responsive design** that works on all devices  
+✅ **Interactive elements** and animations  
+✅ **Professional UI** with your existing design  
+✅ **Feature demonstrations** for hotels and flights  
+
+## 🔍 **TROUBLESHOOTING:**
+
+**If the website shows "404 Not Found":**
+- Wait 2-5 minutes for deployment to complete
+- Check the Actions tab for deployment status
+- Make sure GitHub Pages is enabled
+
+**If you see a blank page:**
+- Try refreshing the page
+- Check if JavaScript is enabled in your browser
+- Try opening in a different browser
+
+## 📱 **TEST ON DIFFERENT DEVICES:**
+
+Your website is responsive, so you can test it on:
+- **Desktop/Laptop**
+- **Mobile phone**
+- **Tablet**
+
+**Try accessing your website now at:**
+```
+https://hamzachamkhi1.github.io/Travel-main/
+```
+
+**Let me know what you see when you visit the link!** 🎯
+
+If it's not working, I can help you troubleshoot further. 
